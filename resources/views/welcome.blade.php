@@ -193,7 +193,7 @@
                 return;
             }
 
-            $('.instruction-text').html('Funtion: ' + $('.select-function :selected').text());
+            $('.instruction-text').html('Function: ' + $('.select-function :selected').text());
             $('.select-function :selected').val() == 'changeLocation' ? $('.detailed-instructions').html('Choose a text to change its position') : '';
             $('.select-function :selected').val() == 'changeColor' ? $('.detailed-instructions').html('Choose a color and apply it on the text') : '';
             $('.select-function :selected').val() == 'changeStyle' ? $('.detailed-instructions').html('Choose a style and apply it on the text') : '';
